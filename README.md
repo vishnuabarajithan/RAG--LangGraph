@@ -117,7 +117,7 @@ export GOOGLE_API_KEY="your_google_api_key"
 Windows (PowerShell)
 
 $env:GOOGLE_API_KEY = "your_google_api_key"
-# or persistently:
+_or persistently:_
 setx GOOGLE_API_KEY "your_google_api_key"
 
 
