@@ -46,7 +46,7 @@ Windows (PowerShell)
 
 python -m venv venv
 .\venv\Scripts\Activate.ps1
-# If activation is blocked: run once: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+_If activation is blocked: run once: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser_
 python -m pip install --upgrade pip setuptools wheel
 
 
