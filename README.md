@@ -1,14 +1,14 @@
 **Table of contents**
 
-1.)_Installation (local)_
+1.) _Installation (local)_
 
-2.)_Quick start_
+2.) _Quick start_
 
-3.)_Project structure_
+3.) _Project structure_
 
-4.)_Configuration / Environment Variables_
+4.) _Configuration / Environment Variables_
 
-5.)_Run (development)_
+5.) _Run (development)_
 
 **1. Installation (local)**
 
