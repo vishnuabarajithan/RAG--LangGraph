@@ -1,41 +1,41 @@
 **Table of contents**
 
-_Installation (local)
+_Installation (local)_
 
-Quick start
+_Quick start_
 
-Project structure
+_Project structure_
 
-Configuration / Environment Variables
+_Configuration / Environment Variables_
 
-Run (development)_
-
+_Run (development)
+_
 
 
 **1. Installation (local)**
 
 These instructions show how to run the project locally on Windows, macOS, or Linux using a Python virtual environment (recommended). The repository already contains the modularized code:
 
-app.py — Flask server and endpoints
+_app.py_ — Flask server and endpoints
 
-rag_agent_module.py — RAG agent factory and graph logic
+_rag_agent_module.py_ — RAG agent factory and graph logic
 
-vectorstore_module.py — PDF loading, splitting, building Chroma vectorstore
+_vectorstore_module.py_ — PDF loading, splitting, building Chroma vectorstore
 
-templates/index.html & static/main.js — frontend UI
+_templates/index.html & static/main.js_ — frontend UI
 
-requirements.txt — Python dependencies
+_requirements.txt_ — Python dependencies
 
 Use Python 3.10+ (3.11/3.12 are fine). Some language model/embeddings libraries may require specific versions — test in a venv.
 
-A. Clone the repository
+A. _Clone the repository_
 git clone https://github.com/<your-username>/rag-prototype.git
 cd rag-prototype
 
 
 (Or unzip the project folder you downloaded.)
 
-B. Create & activate a virtual environment
+B. _Create & activate a virtual environment_
 
 macOS / Linux
 
@@ -58,7 +58,7 @@ python -m venv venv
 venv\Scripts\activate.bat
 python -m pip install --upgrade pip setuptools wheel
 
-C. Install Python dependencies
+C. _Install Python dependencies_
 pip install -r requirements.txt
 
 
@@ -78,7 +78,7 @@ Set environment variables (see below).
 
 Start the Flask server:
 
-python app.py
+_python app.py_
 
 
 Open your browser and go to: http://127.0.0.1:5000
