@@ -126,15 +126,4 @@ If you want to use OpenAI instead of Google, you’ll need to edit rag_agent_mod
 Start the server:
 
 python app.py
-
-
 You should see Flask logs; navigate to http://127.0.0.1:5000.
-Frontend features:
-
-Drag & drop upload area, auto-upload
-
-Inline progress & status (no alert popups)
-
-Rounded UI, glossy beige buttons
-
-Enter to submit question, Shift+Enter to insert newline
